@@ -1,0 +1,33 @@
+.root {
+    padding-top: 60px;
+    background: #fafafa;
+}
+.button{
+    margin: 25px 50vh;
+    opacity: 0.8;
+    background: rgba(243, 0, 180, 0.47);
+    position: relative;
+    border: #f300b4;
+    border-radius: 5px;
+    color: #fafafa;
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 35px;
+    left: 10%;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 40px;
+}
+
+.button:hover{
+    opacity: 1;
+}
+
+.card {
+    width: 100%;
+    height: 380px;
+    cursor: pointer;
+}

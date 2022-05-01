@@ -1,0 +1,30 @@
+.root {
+    padding-top: 60px;
+    background: #fafafa;
+}
+.button{
+    margin: 25px 20vh;
+    opacity: 0.8;
+    background: rgba(243, 0, 180, 0.47);
+    position: relative;
+    border: #f300b4;
+    border-radius: 5px;
+    color: #fafafa;
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 35px;
+    left: 10%;
+}
+
+.flex {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button:hover{
+    opacity: 1;
+}
